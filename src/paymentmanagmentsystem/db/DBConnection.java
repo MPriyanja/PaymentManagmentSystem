@@ -46,7 +46,7 @@ public class DBConnection {
                 permissionStatus = true;
             }
             System.out.println(query);
-        } catch (Exception ex) {
+        } catch (SQLException ex) {
             throw ex;
         }
         result.close();
